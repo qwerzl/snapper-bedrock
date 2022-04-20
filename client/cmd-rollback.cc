@@ -144,7 +144,7 @@ namespace snapper
 	}
 
 	const string subvolume = config.getSubvolume();
-	if (subvolume != "/")
+	if (subvolume != "/bedrock/strata/bedrock/")
 	{
 	    cerr << sformat(_("Command 'rollback' cannot be used on a non-root subvolume %s."),
 			    subvolume.c_str()) << endl;
